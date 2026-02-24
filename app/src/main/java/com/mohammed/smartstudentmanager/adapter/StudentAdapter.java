@@ -15,6 +15,11 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHold
 
     public interface OnClickListener {
         void onClick(int position);
+
+
+
+
+
     }
 
     private ArrayList<Student> students;
