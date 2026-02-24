@@ -25,6 +25,11 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHold
     private ArrayList<Student> students;
     private OnClickListener listener;
 
+
+
+
+
+
     public StudentAdapter(ArrayList<Student> students, OnClickListener listener) {
         this.students = students;
         this.listener = listener;
